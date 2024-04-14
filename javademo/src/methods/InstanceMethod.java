@@ -11,4 +11,8 @@ public class InstanceMethod {
     public void name(){
         System.out.println("bhavesh");
     }
+
+    public static void name1(){
+        System.out.println("bhavesh");
+    }
 }
