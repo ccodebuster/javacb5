@@ -29,6 +29,7 @@ public class ArrayDemo {
 
         System.out.println(table[0][3]);
         System.out.println(table[3][2]);
+        System.out.println(table[3][2]);
 
     }
 }
