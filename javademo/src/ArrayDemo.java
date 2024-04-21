@@ -27,9 +27,15 @@ public class ArrayDemo {
                 {34, 54, 64, 74, 84},
                 {35, 55, 65, 75, 85}};
 
-        System.out.println(table[0][3]);
-        System.out.println(table[3][2]);
-        System.out.println(table[3][2]);
+//        System.out.println(table[0][3]);
+//        System.out.println(table[3][2]);
+//        System.out.println(table[3][2]);
 
+        for(int i=0; i<table.length; i++){
+            for(int j=0; j<table[i].length; j++){
+
+                System.out.println("values at array [" + i +" ][ "+ j +"] is  "+ table[i][j]);
+            }
+        }
     }
 }
