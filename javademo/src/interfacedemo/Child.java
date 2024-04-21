@@ -17,5 +17,6 @@ public class Child implements Father{
     @Override
     public void age() {
         System.out.println("age");
+
     }
 }
