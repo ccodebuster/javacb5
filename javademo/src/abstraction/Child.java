@@ -1,8 +1,9 @@
 package abstraction;
 
-public class Child {
+abstract class Child extends Father {
 
-    public static void main(String[] args) {
-
+      @Override
+    void name() {
+        System.out.println("implemented");
     }
 }

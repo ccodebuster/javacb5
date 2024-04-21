@@ -14,5 +14,6 @@ abstract class Father {
     }
 
     abstract void name();
+    abstract void age();
 
 }
