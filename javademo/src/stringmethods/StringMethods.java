@@ -18,6 +18,8 @@ public class StringMethods {
         System.out.println("Convert string to Uppercase :" +name1.toUpperCase());
 
         System.out.println("To check String is empty or not : " +name2.isEmpty());
-    }
 
-}
+        System.out.println(lName.replace('P','c'));
+
+
+}}
