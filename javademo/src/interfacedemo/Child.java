@@ -18,5 +18,6 @@ public class Child implements Father{
     public void age() {
         System.out.println("age");
 
+
     }
 }
