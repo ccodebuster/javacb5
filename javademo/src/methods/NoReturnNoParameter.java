@@ -7,7 +7,7 @@ public class NoReturnNoParameter {
 
     }
 
-    public void sum(){
+    public void sum(){  //Way to Declared:-Instance and Type of method :- No Return type with No Parameter
         int x = 74;
         int y = 36;
         int sum = x+y;

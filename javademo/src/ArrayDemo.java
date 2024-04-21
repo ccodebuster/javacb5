@@ -22,14 +22,15 @@ public class ArrayDemo {
         System.out.println(lengthOfNumber);
 
         //Multidimensional array
-        int[][] table = {{32, 52, 62, 72, 82},
+        int[][] table = {
+                {32, 52, 62, 72, 82},  //  [0]Row and [4]Column
                 {33, 53, 63, 73, 83},
                 {34, 54, 64, 74, 84},
                 {35, 55, 65, 75, 85}};
 
-//        System.out.println(table[0][3]);
-//        System.out.println(table[3][2]);
-//        System.out.println(table[3][2]);
+      System.out.println(table[0][3]);
+        System.out.println(table[3][2]);
+       System.out.println(table[1][3]);
 
         for(int i=0; i<table.length; i++){
             for(int j=0; j<table[i].length; j++){

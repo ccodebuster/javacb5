@@ -10,10 +10,11 @@ public class ReturnTypeWithoutParameter {
 
     }
 
-    private static String displayName() {
+    private static String displayName() {  //way to declared static and methiod type is return type with no parameters
         String name = "codebuster";
         return name;
     }
+
 
 
 }

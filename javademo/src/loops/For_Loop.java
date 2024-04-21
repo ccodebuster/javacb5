@@ -1,8 +1,15 @@
 package loops;
 
-import java.sql.SQLOutput;
+
+/*  for(initialization; condition; increment/decrement){
+               code to be executed
+               }
+   */
+
 
 public class For_Loop {
+
+
 /*
    i=0 ---> 0<==5 true ---> It prints statement  -----> i++    so 0+1 =   1
    i = 1 ----> 1<==5 true ----> It prints statement -----> i++ s0 1+1 = 2
@@ -14,9 +21,17 @@ public class For_Loop {
 
 
         for (int i = 1; i <= 10; i++) {
-            System.out.println("Vaidehi");
-           // System.out.println("8 * " +i+ " = " +(8*i));
+
+            System.out.println(i);
+
+            if (i == 8) {
+               break;
+            }
+
         }
+
+           // System.out.println("8 * " +i+ " = " +(8*i));
+
         System.out.println("Java");
     }
 }
