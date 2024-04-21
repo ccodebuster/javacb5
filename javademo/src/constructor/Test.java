@@ -5,27 +5,26 @@ public class Test {
     String name;
     int age;
 
-    Test() {
-        //0-args constructor
+    Test() {  //0-arguments constructor
+        System.out.println("Zero Arguments Constructor");
     }
 
-    Test(String name) {
-   //1-args constructor
+    Test(String name) {       //One-arguments constructor
+
         this.name=name;
     }
 
-    Test(int age) {
-   //1-args constructor
-        this.age= age;
+    Test(int age) {          //One-arguments constructor
+
     }
 
-    Test(int age, String name) {
-    //2-args constructor
-        this.name= name;
-        this.age = age;
+    Test(int age, String name) {   //Two-arguments constructor
+
+        this.name= name;        //reperesent current class object using this keyword
+        this.age = age;     //reperesent current class object using this keyword
     }
 
-    public String getName(){
+    public String getName(){        //Return type without parameters method
         return name;
     }
 

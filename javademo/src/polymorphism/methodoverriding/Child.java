@@ -2,6 +2,7 @@ package polymorphism.methodoverriding;
 
 public class Child extends Parent{
 
+
     public void marry(){  //overidding Method
         System.out.println("Birtish Girl");
     }
