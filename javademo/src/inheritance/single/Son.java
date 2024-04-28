@@ -11,6 +11,7 @@ public class Son extends Father{   //Here Son class is child class, sub class or
     public static void subtraction(){
         int a =50, b= 100;
         System.out.println("Subtraction of " +a+ " and " +b+ " = " +(b-a));
+
     }
 
     public static void main(String[] args) {
@@ -23,4 +24,5 @@ public class Son extends Father{   //Here Son class is child class, sub class or
 
 
     }
+
 }
